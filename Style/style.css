@@ -178,6 +178,11 @@ button:hover{
     font-size: medium;
 }
 
+.controle{
+    font-size: 100px;
+
+}
+
 .bi{
     font-size: 30px;
     letter-spacing: 20px;
@@ -188,3 +193,118 @@ button:hover{
     margin: 0;
     padding: 10px 0;
 }
+
+
+/* Adicionando media queries para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    /* Header */
+    header {
+      padding: 20px 5%;
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 18px;
+    }
+  
+    /* Nav Links */
+    .nav_links {
+      flex-direction: column;
+    }
+    .nav_links li {
+      padding: 10px 0;
+    }
+    .nav_links li a {
+      font-size: 18px;
+    }
+  
+    /* Section */
+    .section {
+      padding: 1em;
+    }
+  
+    /* About Me */
+    .aboutme {
+      flex-direction: column;
+    }
+    .aboutme img {
+      margin-left: 0;
+      max-width: 100px;
+    }
+    .aboutme p {
+      max-width: 100%;
+      padding-left: 0;
+    }
+  
+    /* Form */
+    .forme {
+      padding-left: 0;
+      font-size: 20px;
+    }
+  
+    /* Projects */
+    .projects {
+      flex-direction: column;
+    }
+    .projects img {
+      max-width: 30%;
+      float: none;
+    }
+    .projects p {
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    /* Site */
+    .site {
+      flex-direction: column;
+    }
+    .site img {
+      max-width: 100px;
+      margin-right: 0;
+    }
+    .site p {
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    /* Career */
+    .career {
+      flex-direction: column;
+    }
+    .career img {
+      margin-left: 0;
+      max-width: 100px;
+    }
+    .career p {
+      max-width: 100%;
+      padding: 10px 0;
+    }
+  
+    /* Contact */
+    .contact {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .contact h2 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+  
+    /* Controle */
+    .controle {
+      font-size: 50px;
+    }
+  
+    /* Bi */
+    .bi {
+      font-size: 20px;
+      letter-spacing: 10px;
+      margin-top: 10px;
+    }
+  
+    /* Gradient Container */
+    .gradient-container p {
+      margin: 0;
+      padding: 5px 0;
+    }
+  }
