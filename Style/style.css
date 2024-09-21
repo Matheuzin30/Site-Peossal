@@ -93,10 +93,6 @@ button:hover{
     
 }
 
-.projects{
-    text-align: left;
-}
-
 .site {
     display: flex;
     justify-content: space-between;  
@@ -161,6 +157,12 @@ button:hover{
     margin-bottom: 25px;
     font-size: 30px;
 }
+.projects a{
+    display: flexbox;
+    text-align: center;
+    transform: translateY(40%);
+    transform: translateX(-40%);
+}
 
 .projects img{
     max-width: 15%;
@@ -169,6 +171,12 @@ button:hover{
 .projects{
     display: flex;
     justify-content: space-between;
+}
+
+.projects h2{
+    padding-left: 10%;
+    font-size: 28px;
+    transform: translateY(40%);
 }
 
 .projects p{
@@ -180,7 +188,6 @@ button:hover{
 
 .controle{
     font-size: 100px;
-
 }
 
 .bi{
