@@ -61,14 +61,13 @@ button:hover{
 .section {
     padding: 2em;
     color: #FFFFFF;
-    background-color: #012738;
 }
 
 .aboutme{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, #012738, #2e73c8);
+    background: linear-gradient(to bottom,#2e73c8, #1e4d7c);
     padding: 20px;
 }
 
@@ -97,6 +96,7 @@ button:hover{
     display: flex;
     justify-content: space-between;  
     align-items: center;
+    background: linear-gradient(to bottom, #1e4d7c, #0a2a4a);
 }
 
 .site img{
@@ -124,7 +124,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, #113849, #2f598a);
+    background: linear-gradient(to bottom, #0a2a4a, #0a2a4a);
     padding: 20px;
 } 
 
@@ -161,6 +161,8 @@ button:hover{
 .projects{
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(to bottom, #0a2a4a, #031633);
+    
 }
 
 .projects h2{
@@ -184,12 +186,13 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to bottom, #031633, #021529);
 }
  
 .contact{
     text-align: center;
-    background-color: #012030;
     min-height: 22vh;
+    background-color: #02101f;
 }
 
 .contact h2{
@@ -218,46 +221,7 @@ button:hover{
     padding: 10px 0;
 }
 
-/* Media queries for smaller mobile devices */
-@media only screen and (max-width: 480px) {
-    /* Adjust font sizes and padding for smaller mobile devices */
-    * {
-      font-size: 16px;
-    }
-    header {
-      padding: 15px 5%;
-    }
-    .nav_links li {
-      padding: 0px 5px;
-    }
-    .aboutme img {
-      max-width: 100px;
-    }
-    .site img {
-      max-width: 150px;
-      margin-right: 3%;
-    }
-    .career img {
-      max-width: 150px;
-    }
-    .projects img {
-      max-width: 8%;
-    }
-    .contact {
-      min-height: 10vh;
-    }
-    .contact h2 {
-      font-size: 18px;
-    }
-    .contact-info i {
-      font-size: 18px;
-    }
-    .bi {
-      font-size: 18px;
-      letter-spacing: 8px;
-    }
-  }
-  
+
  /* Adicionando media queries para dispositivos móveis */
 @media only screen and (max-width: 768px) {
     /* Header */
