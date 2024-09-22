@@ -260,31 +260,31 @@ button:hover{
       padding-left: 0;
     }
   
-    /* Form */
     .forme {
       padding-left: 0;
       font-size: 20px;
     }
   
-    /* Projects */
     .projects {
       flex-direction: column;
     }
     .projects img {
-      max-width: 30%;
-      float: none;
+      width: 300px;
     }
     .projects p {
       width: 100%;
       padding: 10px 0;
     }
+    .projects a {
+      transform: translateX();
+    }
   
-    /* Site */
+    
     .site {
       flex-direction: column;
     }
     .site img {
-      max-width: 100px;
+      width: 160px;
       margin-right: 0;
     }
     .site p {
@@ -292,20 +292,19 @@ button:hover{
       padding: 10px 0;
     }
   
-    /* Career */
+
     .career {
       flex-direction: column;
     }
     .career img {
       margin-left: 0;
-      max-width: 100px;
+      width: 150px;
     }
     .career p {
       max-width: 100%;
       padding: 10px 0;
     }
   
-    /* Contact */
     .contact {
       text-align: center;
       padding: 20px 0;
